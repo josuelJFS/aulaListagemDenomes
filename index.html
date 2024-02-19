@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadastro de pessoas</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./javascript.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1 alingn="center" id="title">Cadastro de Pessoas</h1>
+        </header>
+        <main>
+            <container>
+                <input id="nome" class="input" type="text" placeholder="Nome" />
+                <input id="idade" class="input" type="text" placeholder="Idade" />
+                <input id="cpf" class="input" type="text" placeholder="Cpf" />
+                <select id="sexo" class="input">
+                    <option>Escolha o Sexo</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+                <button onclick="cadastrarPessoa()" id="btn">Inserir</button>
+            </container>
+            <container class="containerLista"> </container>
+        </main>
+    </body>
+</html>
